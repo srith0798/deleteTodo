@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 9px;
+  align-items: center;
+}
+.title {
+  color: black;
+  font-size: 18px;
+  margin-right: 16px;
+}
+.delete-btn {
+  color: #ff0b37;
+  border: 1px #ff0b37 solid;
+  padding: 2px;
+  height: 30px;
+  border-radius: 10px;
+  width: 90px;
+  background-color: transparent;
+}
